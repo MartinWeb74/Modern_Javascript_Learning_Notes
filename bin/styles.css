@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/coding.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+.mz-color-primary {
+    background-color: #1c2427;
+}
+.max-900 {
+    max-width: 900px;
+}
+.mz-pad-ls {
+    padding: 5% 10% 1% 10%;
+}
+.mz-hero-text-size {
+    font-size: 5rem;
+}
+#javascript {display: block;}
+
+@media only screen and (max-width: 500px) {
+  .mz-hero-text-size {
+    font-size: 3rem;
+  }
+  .mz-hide-500 {
+    display: none;
+  }
+}

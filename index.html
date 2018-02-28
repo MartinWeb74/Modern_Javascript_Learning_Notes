@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>5 Minutes of JavaScript</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="bin/styles.css">
+<script src="bin/scripts.js"></script>
+</head>
+<body>
+
+<!-- Top Navigation -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black"><i class="fa fa-home"></i> HOME</a>
+    </div>
+    <div class="w3-col s2 mz-hide-500">
+      <a href="https://javascript.info/" target="_blank" class="w3-button w3-block w3-black">javascript.info</a>
+    </div>
+    <div class="w3-col s2 mz-hide-500">
+      <a href="https://www.sitepoint.com/anatomy-of-a-modern-javascript-application/" target="_blank" class="w3-button w3-block w3-black">sitepoint.com</a>
+    </div>
+    <div class="w3-col s2 mz-hide-500">
+      <a href="https://www.udemy.com/leveling-up-to-es6/learn/v4/content" target="_blank" class="w3-button w3-block w3-black">udemy.com</a>
+    </div>
+    <div class="w3-col s2 mz-hide-500">
+      <a href="https://repl.it/repls/EachPersonalBetaversion" target="_blank" class="w3-button w3-block w3-black">repl.it</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header Image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white mz-hero-text-size" style="">5 Minutes of<br>JavaScript</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Made with &hearts; by Martin Zarate</span>
+  </div>
+</header>
+
+<!-- Background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content max-900">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-padding-16 mz-color-primary">About 5 minutes of JS</span></h5>
+    <p>A modern JavaScript review (ES6), starting from basic topics and moving onto more advance concepts. We will focus on the language itself, not so much on the environment specifics.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Coding for a living is learning for a living."</i></p>
+      <p><em>- A Software Developer</em></p>
+    </div>
+    <div class="w3-panel w3-leftbar w3-light-grey">  
+      <p><i>"It does not matter how slowly you go as long as you do not stop."</i></p>
+      <p><em>- Confucius</em></p>
+    </div>
+  </div>
+</div>
+
+<!-- List of Items Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content max-900"> 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide w3-padding-16 mz-color-primary">Tentative Sylabus</span></h5>  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'javascript');" id="tabLink">
+        <div class="w3-col s6 tablink w3-text-white mz-color-primary">JavaScript</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'others');">
+        <div class="w3-col s6 tablink">Others</div>
+      </a>
+    </div>
+    <div id="javascript" class="w3-container menu w3-padding-48 w3-card">
+     
+      <h5><a href="learningJS.html" target="_blank">Day 1 Introduction</a></h5>
+      <p class="w3-text-grey">How it feels to learn JS in 2018, a story of two Front-End Web Developers.</p><br>
+      
+      <h5>Coming soon:</h5><br>
+      
+      <h5>Const, Let, and Var</h5>
+      <!-- 
+      <p class="w3-text-grey">xxxxxxx</p><br>
+      -->
+    
+      <h5>Block Scope</h5>
+      <!-- 
+      <p class="w3-text-grey">xxxxxxx</p><br>
+      -->
+         
+      <h5>Arrow Functions</h5>
+      <!-- 
+      <p class="w3-text-grey">xxxxxxx</p><br>
+      -->
+    
+      <h5>Template Literals</h5>
+      <!-- 
+      <p class="w3-text-grey">xxxxxxx</p><br>
+      -->
+    
+      <h5>Modules</h5>
+      <!-- 
+      <p class="w3-text-grey">xxxxxxx</p><br>
+      -->
+      
+      <h5>Classes</h5>
+      <!-- 
+      <p class="w3-text-grey">xxxxxxx</p><br>
+      -->
+      
+      <h5>More coming later.</h5>
+    </div>
+
+    <div id="others" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Modern CSS layouts, Flexbox and CSS Grid </h5>
+      <p class="w3-text-grey">Introduction to modern web layout techniques with Flexbox and CSS Grid Layout</p><br>
+      <br><br><br><br><br><br>
+    </div>  
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-24 w3-large">
+  <p>Made with &hearts; by Martin Zarate</p>
+</footer>
+
+</body>
+</html>
